@@ -43,7 +43,7 @@ $cmd = [
     "cd $landoWebroot;",
     "wp core install",
     "--url='$url'",
-    "--title='mon deuxieme wordpress'",
+    "--title='mon site wordpress'",
     "--admin_user='admin'",
     "--admin_password='admin'",
     "--admin_email='votreemail@votresite.com'",
