@@ -46,7 +46,7 @@ $cmd = [
     "--title='mon deuxieme wordpress'",
     "--admin_user='admin'",
     "--admin_password='admin'",
-    "--admin_email='julien.linard@lidem.eu'",
+    "--admin_email='votreemail@votresite.com'",
 ];
 $installScript = implode(' ', $cmd);
 shell_exec($installScript);
