@@ -1,8 +1,14 @@
 Pour utiliser la recipe php avec mysql :
 
-1. Changer le nom dans ./.lando.yml:line1                           (optionnel)
+1. Configurer le fichier .lando.yml
+1.1. Changer le nom dans ./.lando.yml:line1                         (optionnel)
     -> Pas de majuscules
     -> Eviter les underscores
+
+1.2. Changer les informations                                       (optionnel)
+    - user
+    - password
+    - database
 
 2. Dans le terminal :
     - lando start

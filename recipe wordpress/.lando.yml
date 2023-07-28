@@ -16,4 +16,4 @@ tooling:
     description: "commande pour installer wordpress"
     cmd:
       - echo Installation Wordpress....
-      - recipe php avec mysql config/install_wp.recipe php avec mysql
+      - recipe php config/install_wp.php

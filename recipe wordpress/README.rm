@@ -2,9 +2,15 @@ Pour utiliser la recipe wordpress :
 
 1. Changer l'adresse email dans ./config/install_wp.php:line49      !!! IMPORTANT !!!
 
-2. Changer le nom dans ./.lando.yml:line1                           (optionnel)
+2. Configurer le fichier .lando.yml
+2.1. Changer le nom dans ./.lando.yml:line1                         (optionnel)
     -> Pas de majuscules
     -> Eviter les underscores
+
+2.2. Changer les informations                                       (optionnel)
+    - user
+    - password
+    - database
 
 3. Dans le terminal :
     - lando start
