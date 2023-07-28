@@ -1,6 +1,6 @@
-name: exemple-lando
+name: lando-php
 recipe: lamp
-config: 
+config:
   php: '8.2'
   webroot: .
   xdebug: 'develop, debug'

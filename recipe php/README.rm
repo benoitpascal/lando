@@ -1,0 +1,8 @@
+Pour utiliser la recipe php sans mysql :
+
+1. Changer le nom dans ./.lando.yml:line1                           (optionnel)
+    -> Pas de majuscules
+    -> Eviter les underscores
+
+2. Dans le terminal :
+    - lando start

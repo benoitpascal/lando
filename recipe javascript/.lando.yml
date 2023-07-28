@@ -1,4 +1,4 @@
-name: bp-mapbox-js-objet
+name: lando-webpack-js
 services:
   node:
     type: node:16

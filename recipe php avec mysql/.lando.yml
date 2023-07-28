@@ -1,4 +1,4 @@
-name: exemple-lando
+name: lando-php-avec-mysql
 recipe: lamp
 config: 
   php: '8.2'
@@ -15,4 +15,3 @@ services:
       user: admin
       password: admin
       database: exemple-lando
-      

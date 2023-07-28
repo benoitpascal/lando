@@ -1,4 +1,4 @@
-name: wordpress-lando
+name: lando-wordpress
 recipe: wordpress
 config:
   webroot: .
@@ -7,8 +7,8 @@ services:
     type: mysql #type de DB
     portforward: 3307 #Port sur lequel on va écouter
     creds:
-      user: root #Nom d'utilisateur de DB
-      password: #Password de DB
+      user: admin #Nom d'utilisateur de DB
+      password: admin #Password de DB
       database: master #Nom de la DB
 tooling:
   install:
