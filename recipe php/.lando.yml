@@ -7,7 +7,7 @@ config:
 services:
   appserver:
     config:
-      php: ./.lando.config/php.ini
+      php: ./.lando.config/recipe php.ini
   database:
     type: mysql
     portforward: 3307
