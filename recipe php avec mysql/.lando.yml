@@ -9,4 +9,10 @@ services:
     config:
       php: ./.lando.config/php.ini
   database:
+    type: mysql
     portforward: 3307
+    creds: 
+      user: admin
+      password: admin
+      database: exemple-lando
+      
