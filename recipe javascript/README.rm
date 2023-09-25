@@ -1,9 +1,0 @@
-Pour utiliser la recipe javascript (avec webpack) :
-
-1. Changer le nom dans ./.lando.yml:line1                           (optionnel)
-    -> Pas de majuscules
-    -> Eviter les underscores
-
-2. Dans le terminal :
-    - lando start
-    - lando npm start
